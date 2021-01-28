@@ -7,6 +7,11 @@ class GeometryObject():
         self.y = y
     def __str__(self):
         return f"({self.x}; {self.y})"
+    def __eq__(self, other):
+        if self.x == other.x and self.y == other.y:
+            return True
+        else:
+            return False
 
 class Point(GeometryObject):
     """A point in a geometric space."""
