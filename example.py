@@ -27,7 +27,7 @@ if are_vectors_colinear(ac, db):
 a2 = apply_vector(a, ac) 
 
 # Addition de deux vecteurs
-2db = add_vectors(db, db) 
+db2 = add_vectors(db, db) 
 
 
 
