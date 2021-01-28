@@ -6,7 +6,7 @@ class GeometryObject():
         self.x = x
         self.y = y
     def __str__(self):
-        return f"({self.x}, {self.y})"
+        return f"({self.x}; {self.y})"
 
 class Point(GeometryObject):
     """A point in a geometric space."""
