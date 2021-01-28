@@ -28,6 +28,3 @@ a2 = apply_vector(a, ac)
 
 # Addition de deux vecteurs
 db2 = add_vectors(db, db) 
-
-
-
